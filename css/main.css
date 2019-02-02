@@ -1,1 +1,833 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'chunkfive';
+    src: url('../fonts/chunkfive-webfont.woff'),
+         url('../fonts/chunkfive-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'chunkfive', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 860px;
+    padding: 0px 50px;
+}
+
+/*Header*/
+
+#mainHeader {
+    width: 860px;
+    height: 109px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+#logo {
+    width: 104px;
+    height: 103px;
+    margin-top: 9px;
+}
+
+#socialNav {
+    width: 660px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.social {
+    width: 180px;
+    height: 30px;
+    margin-left: auto;
+}
+
+.social a img {
+    width: 17%;
+    padding: 0px 5px;
+}
+
+.mainNav {
+    width: 660px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.mainNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainNav ul li {
+    display: inline;
+    background-color: aqua;
+    text-align: center;
+    width: 75px;
+    padding: 10px;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Index Body*/
+
+#heroCon {
+    width: 860px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    margin-top: 75px;
+    color: #fff;
+    position: absolute;
+}
+
+.buttonText label {
+    width: 80px;
+    height: 35px;
+    color: #fff;
+    position: absolute;
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buttonText {
+    position: relative;
+    margin-right: 90px
+}
+
+#hero {
+    width: 600px;
+    height: 250px;
+    background-image: url("../images/index_image0.jpg");
+}
+
+#hero h2 {
+    font-size: 40px;
+}
+
+#hero h3 {
+    font-size: 25px;
+}
+
+#hero p {
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.buttonTextTwo {
+    position: relative;
+}
+
+.buttonTextTwo label {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+#buttonTwo {
+    width: 530px;
+    height: 90px;
+    background-color: black;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#buttonCon {
+    width: 530px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#title {
+    width: 550px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#boxConHome {
+    width: 860px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.activityBox {
+    width: 275px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+}
+
+.activityTitle {
+    width: 275px;
+    height: 75px;
+}
+
+.activityTitle h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/*Footer*/
+
+#mainFooter {
+    width: 860px;
+    height: 109px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mainFooter .mainNav {
+    margin-top: 37px;
+}
+
+#mainFooter .social {
+    margin-top: 40px;
+}
+
+/*About Body*/
+
+#titleOne {
+    width: 410px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+#subTitle {
+    width: 750px;
+    height: 55px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#subTitle h3 {
+    font-size: 20px;
+    padding: 15px
+}
+
+#boxOne {
+    width: 860px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.buttonFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutButton {
+    width: 280px;
+    height: 65px;
+    border: 5px solid #fff;
+    background-color: black;
+}
+
+.aboutButton h3 {
+    font-size: 25px;
+    padding: 20px;
+}
+
+#titleTwo {
+    width: 340px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#conTwo {
+    width: 820px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#boxTwo {
+    width: 570px;
+    height: 250px;
+}
+
+#boxTwo p {
+    padding-right: 20px;
+}
+
+#photoTwo {
+    width: 230px;
+    height: 250px;
+}
+
+#titleThree {
+    width: 565px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#conThree {
+    width: 820px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#boxThree {
+    width: 570px;
+    height: 210px;
+}
+
+#boxThree p {
+    padding-right: 20px;
+}
+
+#photoThree {
+    width: 230px;
+    height: 210px;
+}
+
+#titleFour {
+    width: 305px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#conFour {
+    width: 815px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.gear {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+#boxFour {
+    width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#boxFour p {
+    text-align: center;
+}
+
+#titleFive {
+    width: 710px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#conFive {
+    width: 815px;
+    height: 263px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bizCon {
+    width: 278px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.biz {
+    width: 278px;
+    height: 125px;
+    background-color: black;
+}
+
+#bizTwo {
+    width: 217px;
+    height: 263px;
+    background-color: black;
+}
+
+#titleSix {
+    width: 400px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#boxSix {
+    width: 860px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.exeFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.exeOne {
+    width: 420px;
+    height: 90px;
+    border: 5px solid #fff;
+    background-color: black;
+}
+
+.exeTwo {
+    width: 277px;
+    height: 90px;
+    border: 5px solid #fff;
+    background-color: black;
+}
+
+.exeOne h3, .exeTwo h3 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.exeOne h4, .exeTwo h4 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#titleSeven {
+    width: 720px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#boxSeven {
+    width: 860px;
+    height: 246px;
+    margin-top: 20px;
+}
+
+.comFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.comTwo {
+    width: 277px;
+    height: 125px;
+    background-color: black;
+    border: 5px solid #fff;
+}
+
+.comTwo h3 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.comTwo h4 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*Projects Page*/
+
+#projectTitle {
+    width: 350px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#handsOn {
+    width: 420px;
+    height: 40px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#handsOn h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#handsOnText {
+    margin: 0 auto;
+    width: 650px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+#handsOnText {
+    text-align: center;
+    padding: 10px;
+}
+
+#currentTitle {
+    width: 380px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#projectFlex {
+    width: 860px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.projectCon {
+    width: 420px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleCon {
+    width: 380px;
+    height: 60px;
+}
+
+.titleCon h3 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+#fundTitle {
+    width: 290px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#fundFlex {
+    margin: 0 auto;
+    width: 650px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#fundText {
+    width: 500px;
+    height: 100px;
+}
+
+#fundText p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#buttonTextHelp {
+    position: relative;
+}
+
+#buttonTextHelp label {
+    width: 80px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px 0px 10px;
+}
+
+#help {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#pastTitle {
+    width: 290px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#pastFlex {
+    width: 860px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+
+.pastCon {
+    width: 420px;
+    height: 90px;
+    background-color: black;
+    border: 5px solid #fff;
+}
+
+.pastCon h3 {
+    font-size: 28px;
+    padding: 30px;
+}
+
+/*Archives Page*/
+
+#newsTitle {
+    width: 500px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#newsFlex {
+    margin: 0 auto:
+    width: 670px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#newsText {
+    width: 500px;
+    height: 80px;
+}
+
+#newsText p {
+    font-size: 16px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#buttonTextNews {
+    position: relative;
+}
+
+#buttonTextNews label {
+    position: absolute;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    padding: 15px 0px 0px 10px;
+}
+
+#signUp {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#letterCon {
+    width: 860px;
+    height: 225px;
+    margin-top: 20px;
+}
+
+.letterFlex {
+    width: 860px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.letterButton {
+    width: 162px;
+    height: 65px;
+    background-color: black;
+    border: 5px solid #fff;
+}
+
+.letterButton h3 {
+    font-size: 30px;
+    padding: 18px;
+}
+
+#eventTitle {
+    width: 400px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#eventSub {
+    width: 440px;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#eventSub h3 {
+    line-height: 30px;
+    padding: 10px;
+}
+
+#eventSpan {
+    font-size: 25px;
+}
+
+.pastEventSlides {
+    
+}
+
+.eventCon {
+    width: 860px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.eventFlex {
+    width: 570px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleDate {
+    width: 570px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleDate h3 {
+    padding: 12px 0px 0px 5px;
+}
+
+.titleDate h4 {
+    padding: 12px 5px 0px 0px;
+}
+
+.eventText {
+    width: 570px;
+    height: 180px;
+}
+
+.eventText p:first-child {
+    padding-top: 10px;
+}
+
+.eventText p {
+    padding: 0px 10px
+}
+
+.eventPhoto {
+    width: 240px;
+    height: 220px;
+}
+
+#backNextFlex {
+    margin: 0 auto;
+    width: 860px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+
+#backNextFlex label {
+    position: absolute;
+    color: #fff;
+    padding: 16px 0px 0px 28px;
+    font-size: 20px;
+}
+
+.backNext {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#next, #nextLabel {
+    margin-left: 760px;
+}
 
