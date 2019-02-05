@@ -766,10 +766,6 @@ h4 {
     font-size: 25px;
 }
 
-.pastEventSlides {
-    
-}
-
 .eventCon {
     width: 860px;
     height: 220px;
@@ -857,6 +853,11 @@ h4 {
 
 #next, #nextLabel {
     margin-left: 760px;
+}
+
+/*Archives js*/
+.pastEventDiv {
+    display: none;
 }
 
 /*Links Page*/
