@@ -518,6 +518,98 @@ h4 {
     text-align: center;
 }
 
+#statistics {
+    width: 350px;
+    height: 75px;
+    margin: 0 auto;
+    background: #005627;
+    background: -moz-linear-gradient(-45deg, #005627 0%, #005b00 20%, #007000 40%, #007000 60%, #005b00 80%, #005627 100%);
+    background: -webkit-linear-gradient(-45deg, #005627 0%,#005b00 20%,#007000 40%,#007000 60%,#005b00 80%,#005627 100%);
+    background: linear-gradient(135deg, #005627 0%,#005b00 20%,#007000 40%,#007000 60%,#005b00 80%,#005627 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005627', endColorstr='#005627',GradientType=1 );
+    margin-top: 20px;
+}
+
+.graphCenter {
+    text-align: center;
+}
+
+.graphCon {
+    margin-top: 20px
+}
+
+.graphCon img {
+    width: 60%;
+}
+
+.graphText {
+    width: 450px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#aboutButtonFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    width: 860px;
+    margin-top: 15px;
+}
+
+.aboutButtonDiv {
+    position: relative;
+    width: 50px;
+}
+
+.aboutButtonDiv label {
+    position: absolute;
+}
+
+.aboutBack {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.aboutNext {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow {
+    width: 18px;
+    height: 18px;
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin: 10px 10px 10px 15px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 10px 10px 10px 5px;
+}
+
+.graphBump {
+    padding-right: 65px;
+}
+
+.graphBumpTwo {
+    padding-right: 15px;
+}
+
 #titleFive {
     width: 670px;
     height: 75px;
@@ -527,7 +619,7 @@ h4 {
     background: linear-gradient(135deg, #005627 0%,#005b00 20%,#007000 40%,#007000 60%,#005b00 80%,#005627 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005627', endColorstr='#005627',GradientType=1 );
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #conFive {
