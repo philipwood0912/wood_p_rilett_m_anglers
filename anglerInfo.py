@@ -124,7 +124,7 @@ ax.set(xlabel='Years', ylabel='# of Fish Caught',
        title='Rainbow Trout Caught')
 ax.grid()
 
-ax.set_xticklabels(fishY, fontsize=7)
+ax.set_xticklabels(fishY, fontsize=10)
 ax.legend()
 
 plt.show()
