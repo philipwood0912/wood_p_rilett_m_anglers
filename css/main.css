@@ -438,9 +438,25 @@ h4 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
 }
 
-.aboutButton:hover {
-
+#conOneSub {
+    width: 280px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    background: #007000;
+    background: -moz-radial-gradient(center, ellipse cover, #007000 0%, #005b00 88%, #005627 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #007000 0%,#005b00 88%,#005627 100%);
+    background: radial-gradient(ellipse at center, #007000 0%,#005b00 88%,#005627 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
 }
+
+#clickA {
+    font-family: 'chunkfive', Arial, sans-serif;
+    font-size: 34px;
+    padding: 20px 0px;
+}
+
 
 .aboutButton h3 {
     font-family: 'rubik-bold';
@@ -455,6 +471,18 @@ h4 {
 
 .aboutButtonContent {
     display: none;
+    width: 700px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.aboutButtonContent p {
+    font-family: 'rubik-bolditalic', Arial, sans-serif;
+    line-height: 25px;
+    padding-top: 5px;
 }
 
 #titleTwo {
@@ -466,7 +494,7 @@ h4 {
     background: linear-gradient(135deg, #005627 0%,#005b00 20%,#007000 40%,#007000 60%,#005b00 80%,#005627 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005627', endColorstr='#005627',GradientType=1 );
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #conTwo {

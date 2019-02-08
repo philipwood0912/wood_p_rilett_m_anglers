@@ -1,10 +1,11 @@
-
-    
 var pastIndex = 1;
 showPast(pastIndex);
 
+var aboutIndex = 1;
+
 function movement(x) {
     showPast(pastIndex += x);
+    showAbout(aboutIndex = x);
 }
 
 function showPast(x) {
@@ -25,3 +26,23 @@ function showPast(x) {
     // shows current index div
     content[pastIndex-1].style.display = "block";
 }
+
+function reset() {
+    click = document.getElementById('clickA');
+    click.style.display = "none";
+    box = document.getElementById('conOneSub');
+    box.style.display = "none";
+}
+
+function showAbout(x) {
+    reset();
+    var y;
+    var content = document.getElementsByClassName('aboutButtonContent');
+    for (y = 0; y < content.length; y++) {
+    	content[y].style.display = "none";
+    }
+    content[aboutIndex].style.display = "block";
+}
+
+
+
