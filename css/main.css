@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'rubik-italic';
     src: url('../fonts/rubik-italic-webfont.woff'),
-         url('../fonts/rubik-italic-webfont.woff');
+         url('../fonts/rubik-italic-webfont.woff2');
     font-weight: normal;
     font-style: italic;
 }
@@ -48,6 +48,11 @@ body {
     font-family: 'rubik-regular', Arial, Helvetica;
 }
 
+input:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
+}
 
 h2 {
     font-family: 'chunkfive', Arial, sans-serif;
@@ -55,16 +60,19 @@ h2 {
     text-align: center;
     font-size: 40px;
     padding: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
 }
 
 h3 {
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
 }
 
 h4 {
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
 }
 
 .hidden {
@@ -137,6 +145,8 @@ h4 {
     background: -webkit-radial-gradient(center, ellipse cover, #007000 0%,#005b00 88%,#005627 100%);
     background: radial-gradient(ellipse at center, #007000 0%,#005b00 88%,#005627 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .mainNav ul li a:hover {
@@ -152,6 +162,13 @@ h4 {
     display: block;
     color: #fff;
     padding: 8px 5px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.mainNav ul li:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
 }
 
 /*Index Body*/
@@ -177,10 +194,17 @@ h4 {
     position: absolute;
     border: 4px solid #003518;
     border-radius: 20px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .button:hover {
     background: #00C9C9;
+}
+
+.button:active, label:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
 }
 
 .buttonText label {
@@ -195,6 +219,7 @@ h4 {
     line-height: 20px;
     padding: 20px 0px 20px 4px;
     display: block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .buttonText label:hover {
@@ -209,6 +234,7 @@ h4 {
 #hero {
     width: 600px;
     height: 250px;
+    border: 4px solid #003518;
     background-image: url("../images/index_image0.jpg");
 }
 
@@ -228,6 +254,7 @@ h4 {
     margin-top: 62px;
     font-size: 20px;
     line-height: 24px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
 }
 
 .buttonTextTwo {
@@ -244,6 +271,7 @@ h4 {
     line-height: 30px;
     padding: 10px 30px 10px 30px;
     margin: 25px 0px 0px 15px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .buttonTextTwo label:hover {
@@ -262,10 +290,17 @@ h4 {
     position: absolute;
     border: 4px solid #003518;
     border-radius: 25px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 #buttonTwo:hover {
     background: #00C9C9;
+}
+
+#buttonTwo:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
 }
 
 #buttonCon {
@@ -315,7 +350,14 @@ h4 {
     font-family: 'rubik-bold';
     font-size: 25px;
     text-align: center;
-    padding: 12px 10px;
+    padding: 12px 8px;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.activityTitle h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 /*Footer*/
@@ -372,18 +414,18 @@ h4 {
 
 #boxOne {
     width: 860px;
-    height: 150px;
+    height: 160px;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .buttonFlex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .aboutButton {
@@ -396,10 +438,23 @@ h4 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
 }
 
+.aboutButton:hover {
+
+}
+
 .aboutButton h3 {
     font-family: 'rubik-bold';
     font-size: 25px;
-    padding: 22px;
+    padding: 22.5px;
+}
+
+.aboutButton h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
+}
+
+.aboutButtonContent {
+    display: none;
 }
 
 #titleTwo {
@@ -492,25 +547,31 @@ h4 {
 
 #conFour {
     width: 815px;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-.gear {
-    width: 250px;
-    height: 250px;
-    background-color: black;
+.gear img {
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+
+.gear img:hover {
+    width: 300px;
+    height: 300px;
 }
 
 #boxFour {
     width: 350px;
     height: 60px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 20px;
     line-height: 25px;
 }
 
@@ -563,6 +624,7 @@ h4 {
 .aboutButtonDiv {
     position: relative;
     width: 50px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .aboutButtonDiv label {
@@ -834,19 +896,28 @@ h4 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .titleCon {
     width: 420px;
-    height: 60px;
+    height: 80px;
+}
+
+.projectCon img {
+    margin-top: 20px;
 }
 
 .titleCon h3 {
     font-family: 'rubik-bold';
     font-size: 25px;
-    padding: 15px;
+    padding: 27px 10px;
+}
+
+.titleCon h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 #fundTitle {
@@ -916,6 +987,7 @@ h4 {
     position: absolute;
     border: 4px solid #003518;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 #help:hover {
@@ -956,7 +1028,12 @@ h4 {
 .pastCon h3 {
     font-family: 'rubik-bold';
     font-size: 25px;
-    padding: 32px;
+    padding: 33px;
+}
+
+.pastCon h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 /*Archives Page*/
@@ -973,7 +1050,7 @@ h4 {
 }
 
 #newsFlex {
-    margin: 0 auto:
+    margin: 0 auto;
     width: 670px;
     height: 80px;
     display: flex;
@@ -1004,7 +1081,8 @@ h4 {
     color: #fff;
     width: 80px;
     text-align: center;
-    padding: 18px 6px 12px 10px;
+    padding: 17px 6px 12px 10px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 #buttonTextNews label:hover {
@@ -1022,10 +1100,17 @@ h4 {
     position: absolute;
     border: 4px solid #003518;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 #signUp:hover {
     background: #00C9C9;
+}
+
+#signUp:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
 }
 
 #letterCon {
@@ -1172,7 +1257,7 @@ h4 {
     font-family: 'rubik-bold';
     position: absolute;
     color: #fff;
-    padding: 16px 25px 10px 25px;
+    padding: 16px 24px 10px 25px;
     font-size: 20px;
 }
 
@@ -1191,11 +1276,13 @@ h4 {
     position: absolute;
     border: 4px solid #003518;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 .backNext:hover {
     background: #00C9C9;
 }
+
 
 #next, #nextLabel {
     margin-left: 760px;
@@ -1258,17 +1345,17 @@ h4 {
 }
 
 #linkBoxOne {
-    width: 860ps;
+    width: 860px;
     height: 350px;
     margin-top: 20px;
 }
 
 #linkBoxOne h3, #linkBoxThree h3 {
-    padding-top: 6px;
+    padding: 7px;
 }
 
 #linkBoxOne .bump, #linkBoxThree .bump {
-    padding-top: 15px;
+    padding: 14.5px;
 }
 
 .textBump {
@@ -1290,6 +1377,11 @@ h4 {
     background: -webkit-radial-gradient(center, ellipse cover, #007000 0%,#005b00 88%,#005627 100%);
     background: radial-gradient(ellipse at center, #007000 0%,#005b00 88%,#005627 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007000', endColorstr='#005627',GradientType=1 );
+}
+
+.linkStart h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 .linkText {
@@ -1321,7 +1413,12 @@ h4 {
 
 #authBox h3 {
     font-size: 15px;
-    padding-top: 15px
+    padding: 15.5px 0px;
+}
+
+#authBox h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 .authFlex {
@@ -1372,7 +1469,12 @@ h4 {
 }
 
 #govBox h3 {
-    padding-top: 15px;
+    padding: 14.5px;
+}
+
+#govBox h3:hover {
+    color: #000000;
+    background-color: #00C9C9;
 }
 
 .govOne {
@@ -1408,7 +1510,7 @@ h4 {
 }
 
 #linkBoxTwo h3 {
-    padding-top: 15px
+    padding: 14.5px;
 }
 
 #linkBoxTwo p {
@@ -1648,31 +1750,31 @@ input[type=text], input[type=email] {
 /*Animations*/
 
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+    from { -webkit-transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); }
 }
 
 @-moz-keyframes spin {
-    from { -moz-transform: rotate(0deg); }
-    to { -moz-transform: rotate(360deg); }
+    from { -moz-transform: rotateY(0deg); }
+    to { -moz-transform: rotateY(360deg); }
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
 }
 
 #fundTime:hover #dollar {
     -webkit-animation-name: spin;
     -webkit-animation-duration: 2s;
-    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-name: spin;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease;
     animation-name: spin;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease;
 }
