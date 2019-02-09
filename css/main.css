@@ -195,28 +195,27 @@ h4 {
     background: #00C9C9;
 }
 
-.button:active, label:active {
+.button:active {
     -webkit-transform: translate(0px, 3px);
     -moz-transform: translate(0px, 3px);
     transform: translate(0px, 3px);
 }
 
-.buttonText label {
+.buttonText h3 {
     font-family: 'rubik-bold', Arial, sans-serif;
     width: 82px;
     height: 35px;
     color: #fff;
     position: absolute;
     text-align: center;
-    margin-top: 76px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
-    padding: 20px 0px 20px 4px;
+    padding: 23px 5px;
     display: block;
     text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
-.buttonText label:hover {
+.buttonText h3:hover {
     color: #000000;
 }
 
@@ -256,7 +255,7 @@ h4 {
     position: relative;
 }
 
-.buttonTextTwo label {
+.buttonTextTwo h3 {
     font-family: 'rubik-bold', Arial, sans-serif;
     position: absolute;
     color: #fff;
@@ -264,12 +263,11 @@ h4 {
     width: 440px;
     font-size: 21px;
     line-height: 30px;
-    padding: 10px 30px 10px 30px;
-    margin: 25px 0px 0px 15px;
+    padding: 16px 50px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
-.buttonTextTwo label:hover {
+.buttonTextTwo h3:hover {
     color: #000000;
 }
 
@@ -313,7 +311,7 @@ h4 {
     background: linear-gradient(135deg, #005627 0%,#005b00 20%,#007000 40%,#007000 60%,#005b00 80%,#005627 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005627', endColorstr='#005627',GradientType=1 );
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 
@@ -711,7 +709,7 @@ h4 {
     height: 50px;
 }
 
-.aboutBack:active, .aboutNext:active {
+.aboutBack:active, .aboutNext:active, label:active {
     -webkit-transform: translate(0px, 3px);
     -moz-transform: translate(0px, 3px);
     transform: translate(0px, 3px);
@@ -1030,6 +1028,8 @@ h4 {
     font-family: 'rubik-bold', Arial, sans-serif;
     font-size: 25px;
     padding: 27px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .titleCon h3:hover {
@@ -1080,16 +1080,16 @@ h4 {
     position: relative;
 }
 
-#buttonTextHelp label {
+#buttonTextHelp h3 {
     font-family: 'rubik-bold', Arial, sans-serif;
     width: 80px;
     position: absolute;
     color: #fff;
     text-align: center;
-    padding: 17px 5px 13px 10px;
+    padding: 18px 11px;
 }
 
-#buttonTextHelp label:hover {
+#buttonTextHelp h3:hover {
     color: #000000;
 }
 
@@ -1198,17 +1198,17 @@ h4 {
     position: relative;
 }
 
-#buttonTextNews label {
+#buttonTextNews h3 {
     font-family: 'rubik-bold', Arial, sans-serif;
     position: absolute;
     color: #fff;
     width: 80px;
     text-align: center;
-    padding: 17px 6px 12px 10px;
+    padding: 18px 11px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
-#buttonTextNews label:hover {
+#buttonTextNews h3:hover {
     color: #000000;
 }
 
