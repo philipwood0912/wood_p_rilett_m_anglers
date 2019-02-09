@@ -27,7 +27,7 @@ Its been quite the struggle.
     <li>README.md</li>
 </ol>
 
-All css/html has been validated.
+All html/css has been validated.
 
 All html has been outlined.
 
@@ -47,11 +47,11 @@ Transitions included on most pages - changing div color on hover, pop-up text wi
 
 Javascript has been added to the about and archives page.
 
-On the about page you can click on a divs to reveal content.
+On the about page you can click on a different divs to reveal content.
 
 Also the statistic charts have Javascript linked to display one at a time.
 
-The same code is used on archives page to go through past events with a click on a button.
+The same code is used on archives page to go through past events with a click of a button.
 
 ## More Updates Soon To Come !!!!
 
