@@ -689,27 +689,17 @@ h4 {
 
 .aboutButtonDiv {
     position: relative;
-    width: 50px;
+    width: 45px;
+    height: 45px;
+    border: 2.5px solid #000000;
     box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
-.aboutButtonDiv label {
+.aboutButtonDiv i {
     position: absolute;
 }
 
-.aboutBack {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-}
-
-.aboutNext {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-}
-
-.aboutBack:active, .aboutNext:active, label:active {
+.aboutButtonDiv:active {
     -webkit-transform: translate(0px, 3px);
     -moz-transform: translate(0px, 3px);
     transform: translate(0px, 3px);
@@ -727,13 +717,13 @@ h4 {
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
-    margin: 10px 10px 10px 15px;
+    margin: 7px 10px 10px 15px;
 }
 
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-    margin: 10px 10px 10px 5px;
+    margin: 7px 10px 10px 0px;
 }
 
 .graphBump {
@@ -1411,7 +1401,7 @@ h4 {
     background: #00C9C9;
 }
 
-.backNext:active {
+.backNext:active, label:active {
     -webkit-transform: translate(0px, 3px);
     -moz-transform: translate(0px, 3px);
     transform: translate(0px, 3px);
@@ -1782,6 +1772,7 @@ h4 {
 }
 
 .formDiv input {
+    width: 170px;
     margin-right: 50px;
     padding: 5px;
 }
