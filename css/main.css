@@ -211,7 +211,7 @@ h4 {
     text-align: center;
     font-size: 14px;
     line-height: 20px;
-    padding: 23px 5px;
+    padding: 22px 6px 30px 6px;
     display: block;
     text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
@@ -221,8 +221,9 @@ h4 {
 }
 
 .buttonText {
+    width: 98px;
     position: relative;
-    margin-right: 90px;
+   
 }
 
 #hero {
@@ -264,7 +265,7 @@ h4 {
     width: 440px;
     font-size: 21px;
     line-height: 30px;
-    padding: 16px 50px;
+    padding: 15px 50px 20px 50px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
@@ -500,7 +501,7 @@ h4 {
 .aboutButton h3 {
     font-family: 'rubik-bold';
     font-size: 25px;
-    padding: 22.5px;
+    padding: 23px;
 }
 
 .aboutButton h3:hover {
@@ -519,7 +520,7 @@ h4 {
 }
 
 .aboutButtonContent p {
-    font-family: 'rubik-bolditalic', Arial, sans-serif;
+    font-family: 'rubik-italic', Arial, sans-serif;
     line-height: 25px;
     padding-top: 5px;
 }
@@ -1002,6 +1003,7 @@ h4 {
     padding: 15px 10px;
     text-align: center;
     font-family: 'rubik-italic', Arial, sans-serif;
+    line-height: 18px;
 }
 
 .projectTextSpan {
@@ -1145,7 +1147,7 @@ h4 {
 .pastCon h3 {
     font-family: 'rubik-bold', Arial, sans-serif;
     font-size: 25px;
-    padding: 33px;
+    padding: 32px;
 }
 
 .pastCon h3:hover {
@@ -1331,16 +1333,16 @@ h4 {
 }
 
 .titleDate h3 {
-    padding: 12px 0px 0px 10px;
+    padding: 14px 0px 0px 10px;
 }
 
 #damNation {
-    padding: 5px 0px 0px 10px;
+    padding: 7px 0px 0px 10px;
     text-align: left;
 }
 
 .titleDate h4 {
-    padding: 12px 10px 0px 0px;
+    padding: 14px 10px 0px 0px;
 }
 
 .eventText {
@@ -1478,11 +1480,11 @@ h4 {
 }
 
 #linkBoxOne h3, #linkBoxThree h3 {
-    padding: 7px;
+    padding: 9px;
 }
 
 #linkBoxOne .bump, #linkBoxThree .bump {
-    padding: 14.5px;
+    padding: 16px;
 }
 
 .textBump {
@@ -1596,7 +1598,7 @@ h4 {
 }
 
 #govBox h3 {
-    padding: 14.5px;
+    padding: 16px;
 }
 
 #govBox h3:hover {
